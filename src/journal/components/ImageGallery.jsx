@@ -7,9 +7,10 @@ export const ImageGallery = ({ images }) => {
       {images.map((image) => (
         <ImageListItem key={image}>
           <img
-            srcSet={`${image}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-            src={`${image}?w=164&h=164&fit=crop&auto=format`}
-            alt={"Imagen de la nota"}
+            style={{ objectFit: "contain", width: "100%", height: "100%" }}
+            srcSet={`${image}?w=200&h=200&fit=crop&auto=format&dpr=2 2x`}
+            src={`${image}?w=200&h=200&fit=crop&auto=format`}
+            alt="Imagen de la nota"
             loading="lazy"
           />
         </ImageListItem>
