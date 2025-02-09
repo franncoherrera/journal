@@ -20,7 +20,7 @@
 Sigue los siguientes pasos para clonar y ejecutar la aplicación en tu máquina local.
 
 1. Clona el repositorio:
-2. Ejecutar `npm install`
+2. Ejecutar `yarn install`
 3. Ejecutar `yarn dev`
 
 ## 🚀 Tecnologías
